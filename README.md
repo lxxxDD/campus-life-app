@@ -1,51 +1,152 @@
-# 校园生活APP - 移动端
+<div align="center">
 
-## 项目简介
-校园生活APP移动端，基于uni-app开发，支持多端运行。
+# 📱 Campus Life App
 
-## 技术栈
-- **框架**: uni-app + Vue 3
-- **UI组件**: uview-plus
-- **状态管理**: Vuex
-- **网络请求**: uni.request封装
+<img src="https://img.shields.io/badge/uni--app-Vue3-42b883?style=for-the-badge&logo=vue.js" />
+<img src="https://img.shields.io/badge/uview--plus-UI-ff6b6b?style=for-the-badge" />
+<img src="https://img.shields.io/badge/跨平台-iOS%20%7C%20Android%20%7C%20H5-blueviolet?style=for-the-badge" />
 
-## 功能模块
-- 🛒 **二手市场** - 闲置物品买卖
-- 🍜 **食堂点餐** - 在线点餐、订单管理
-- 🔧 **校园报修** - 报修提交、进度追踪
-- 📅 **校园活动** - 活动浏览、报名参与
-- 📰 **校园新闻** - 新闻资讯
-- 🤖 **AI助手** - 智能问答
-- 💬 **消息中心** - 通知消息
+**📲 你的校园生活，触手可及**
 
-## 快速开始
+[🔗 后端服务](https://github.com/lxxxDD/campus-life-server) · [💻 管理后台](https://github.com/lxxxDD/campus-life-admin)
 
-### 环境要求
-- Node.js 16+
-- HBuilderX (推荐)
+</div>
 
-### 运行步骤
+---
+
+## 🌟 应用预览
+
+```
+╔══════════════════════════════════════╗
+║     🎓 校园生活 - 让生活更美好        ║
+╠══════════════════════════════════════╣
+║  ┌────────┐  ┌────────┐  ┌────────┐  ║
+║  │ 🛒二手 │  │ 🍜点餐 │  │ 🔧报修 │  ║
+║  │  市场  │  │  服务  │  │  服务  │  ║
+║  └────────┘  └────────┘  └────────┘  ║
+║  ┌────────┐  ┌────────┐  ┌────────┐  ║
+║  │ 📅活动 │  │ 📰新闻 │  │ 🤖AI   │  ║
+║  │  中心  │  │  资讯  │  │  助手  │  ║
+║  └────────┘  └────────┘  └────────┘  ║
+╚══════════════════════════════════════╝
+```
+
+## ✨ 功能特色
+
+<table>
+<tr>
+<td>
+
+### 🛒 二手市场
+- 📸 拍照发布闲置
+- 🔍 智能搜索商品
+- ❤️ 收藏感兴趣的
+- 💬 在线私聊卖家
+
+</td>
+<td>
+
+### 🍜 食堂点餐
+- 🏪 多食堂选择
+- 📋 丰富菜品展示
+- 🛍️ 购物车管理
+- 📍 订单实时追踪
+
+</td>
+</tr>
+<tr>
+<td>
+
+### 🔧 校园报修
+- 📝 一键提交报修
+- 📊 进度实时查看
+- ⭐ 服务评价反馈
+- 📜 历史记录查询
+
+</td>
+<td>
+
+### 🤖 AI助手
+- 💡 智能问答服务
+- 🗺️ 校园导航指引
+- 📚 学习资料推荐
+- 🎯 个性化建议
+
+</td>
+</tr>
+</table>
+
+## 🛠️ 技术栈
+
+<div align="center">
+
+| 技术 | 说明 | 版本 |
+|:---:|:---|:---:|
+| <img src="https://skillicons.dev/icons?i=vue" width="20"/> | Vue 3 组合式API | 3.x |
+| 📦 | uni-app 跨平台框架 | 最新 |
+| 🎨 | uview-plus UI组件库 | 3.x |
+| 📡 | WebSocket 即时通讯 | - |
+
+</div>
+
+## 🚀 快速开始
+
 ```bash
-# 1. 克隆项目
+# 📥 克隆项目
 git clone https://github.com/lxxxDD/campus-life-app.git
 
-# 2. 安装依赖
+# 📂 进入目录
+cd campus-life-app
+
+# 📦 安装依赖
 npm install
 
-# 3. 运行项目
+# 🚀 启动开发服务
 npm run dev
 ```
 
-## 项目结构
+## 📁 目录结构
+
 ```
-├── api/             # API接口
-├── components/      # 公共组件
-├── pages/           # 页面
-├── store/           # 状态管理
-├── static/          # 静态资源
-└── utils/           # 工具函数
+📦 CampusLifeApp3.0
+ ┣ 📂 api          # 🔌 接口封装
+ ┣ 📂 components   # 🧩 公共组件
+ ┣ 📂 pages        # 📄 页面文件
+ ┃ ┣ 📂 market     # 🛒 二手市场
+ ┃ ┣ 📂 canteen    # 🍜 食堂点餐
+ ┃ ┣ 📂 repair     # 🔧 校园报修
+ ┃ ┣ 📂 activity   # 📅 校园活动
+ ┃ ┗ 📂 assistant  # 🤖 AI助手
+ ┣ 📂 store        # 📊 状态管理
+ ┣ 📂 static       # 🖼️ 静态资源
+ ┗ 📂 utils        # 🛠️ 工具函数
 ```
 
-## 相关项目
-- [后端服务](https://github.com/lxxxDD/campus-life-server)
-- [管理后台](https://github.com/lxxxDD/campus-life-admin)
+## 📱 支持平台
+
+<div align="center">
+
+| <img src="https://img.icons8.com/color/48/android-os.png" width="24"/> Android | <img src="https://img.icons8.com/color/48/ios-logo.png" width="24"/> iOS | <img src="https://img.icons8.com/color/48/chrome.png" width="24"/> H5 | <img src="https://img.icons8.com/color/48/weixing.png" width="24"/> 微信小程序 |
+|:---:|:---:|:---:|:---:|
+| ✅ 支持 | ✅ 支持 | ✅ 支持 | ✅ 支持 |
+
+</div>
+
+## 🔗 相关项目
+
+<div align="center">
+
+[![Server](https://img.shields.io/badge/🖥️_后端服务-Spring_Boot-green?style=for-the-badge)](https://github.com/lxxxDD/campus-life-server)
+[![Admin](https://img.shields.io/badge/💻_管理后台-Vue_3-blue?style=for-the-badge)](https://github.com/lxxxDD/campus-life-admin)
+
+</div>
+
+---
+
+<div align="center">
+
+**⭐ 觉得不错？给个Star吧！**
+
+Made with 💚 by [lxxxDD](https://github.com/lxxxDD)
+
+</div>
