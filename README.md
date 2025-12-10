@@ -2,6 +2,11 @@
 
 # 📱 Campus Life App
 
+<!-- 动态打字机效果 -->
+<a href="https://github.com/lxxxDD/campus-life-app">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=40&duration=3000&pause=1000&color=42B883&center=true&vCenter=true&width=600&lines=Campus+Life+App;Cross-Platform+Mobile;Uni-app+x+Vue+3" alt="Typing SVG" />
+</a>
+
 <!-- 核心徽章 -->
 <p>
   <img src="https://img.shields.io/badge/uni--app-Vue3-42b883?style=for-the-badge&logo=vue.js" />
