@@ -1,28 +1,6 @@
 <div align="center">
 
-<!-- 访客统计 -->
-<img src="https://profile-counter.glitch.me/lxxxDD-campus-life-app/count.svg" alt="Visitors" />
-
-<!-- 动态标题 -->
-<a href="https://github.com/lxxxDD/campus-life-app">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=40&duration=3000&pause=1000&color=42b883&center=true&vCenter=true&width=600&lines=Campus+Life+App;Cross-Platform+Mobile;Uni-app+x+Vue+3" alt="Typing SVG" />
-</a>
-
-<br>
-
-<!-- 下载按钮 (模拟) -->
-<a href="#">
-  <img src="https://img.shields.io/badge/Download-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Download-iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Open-Web%20App-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" />
-</a>
-
-<br>
-<br>
+# 📱 Campus Life App
 
 <!-- 核心徽章 -->
 <p>
@@ -31,11 +9,24 @@
   <img src="https://img.shields.io/badge/Platform-iOS%20%7C%20Android%20%7C%20H5-blueviolet?style=for-the-badge" />
 </p>
 
-<h3 align="center">📲 你的校园生活，触手可及</h3>
+<!-- 仓库徽章 -->
+<p>
+  <a href="https://github.com/lxxxDD/campus-life-app">
+    <img src="https://img.shields.io/github/repo-size/lxxxDD/campus-life-app?style=flat-square&logo=github" />
+  </a>
+  <a href="https://github.com/lxxxDD/campus-life-app/stargazers">
+    <img src="https://img.shields.io/github/stars/lxxxDD/campus-life-app?style=flat-square&logo=github" />
+  </a>
+  <a href="https://github.com/lxxxDD/campus-life-app/commits">
+    <img src="https://img.shields.io/github/last-commit/lxxxDD/campus-life-app?style=flat-square&logo=github" />
+  </a>
+</p>
 
-<p align="center">
-  <a href="#-应用截图">📱 应用截图</a> •
+<h3>📲 你的校园生活，触手可及</h3>
+
+<p>
   <a href="#-功能特性">✨ 功能特性</a> •
+  <a href="#-技术架构">🛠️ 技术架构</a> •
   <a href="#-快速开始">🚀 快速开始</a> •
   <a href="https://github.com/lxxxDD/campus-life-server">🔗 后端服务</a>
 </p>
@@ -44,32 +35,25 @@
 
 ---
 
-## 📱 应用截图 (Screenshots)
+## 📱 应用预览
 
-> 🎨 **精美UI，极致体验**
-
-<div align="center">
-  <table style="border: none;">
-    <tr>
-      <td align="center">
-        <img src="https://via.placeholder.com/200x400/42b883/ffffff?text=Home" alt="首页" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
-        <br><b>🏠 首页大厅</b>
-      </td>
-      <td align="center">
-        <img src="https://via.placeholder.com/200x400/ff6b6b/ffffff?text=Market" alt="市场" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
-        <br><b>🛒 二手市场</b>
-      </td>
-      <td align="center">
-        <img src="https://via.placeholder.com/200x400/409eff/ffffff?text=Service" alt="服务" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
-        <br><b>🔧 校园服务</b>
-      </td>
-      <td align="center">
-        <img src="https://via.placeholder.com/200x400/909399/ffffff?text=Profile" alt="我的" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
-        <br><b>👤 个人中心</b>
-      </td>
-    </tr>
-  </table>
-</div>
+```
+┌────────────────────────────────────────────────────────────────┐
+│  🏠 首页        🛒 市场        🍜 餐饮        👤 我的           │
+├────────────────────────────────────────────────────────────────┤
+│                                                                │
+│    ┌──────────┐    ┌──────────┐    ┌──────────┐               │
+│    │  🛍️ 二手  │    │  🍜 点餐  │    │  🔧 报修  │               │
+│    │   市场   │    │   系统   │    │   服务   │               │
+│    └──────────┘    └──────────┘    └──────────┘               │
+│                                                                │
+│    ┌──────────┐    ┌──────────┐    ┌──────────┐               │
+│    │  📅 活动  │    │  🤖 AI   │    │  💬 消息  │               │
+│    │   报名   │    │  助手    │    │   中心   │               │
+│    └──────────┘    └──────────┘    └──────────┘               │
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
+```
 
 ## ✨ 功能特性 (Features)
 
@@ -126,11 +110,13 @@ npm run dev:h5
 # 打开项目 -> 运行 -> 运行到浏览器/模拟器
 ```
 
-## 🤝 贡献者 (Contributors)
+## 🔗 生态系统
 
-<a href="https://github.com/lxxxDD/campus-life-app/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=lxxxDD/campus-life-app" />
-</a>
+| 项目 | 描述 | 技术栈 |
+|:---:|:---|:---:|
+| [🖥️ 后端服务](https://github.com/lxxxDD/campus-life-server) | RESTful API服务 | Spring Boot |
+| [📱 移动端](https://github.com/lxxxDD/campus-life-app) | 跨平台移动应用 | uni-app |
+| [💻 管理后台](https://github.com/lxxxDD/campus-life-admin) | 运营管理系统 | Vue 3 |
 
 ---
 
