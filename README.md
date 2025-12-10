@@ -111,21 +111,21 @@
 
 ```mermaid
 mindmap
-  root((Campus App))
+  root((📱 Campus App))
     框架
-      uni-app
-      Vue 3
+      🟢 uni-app
+      🟩 Vue 3
     UI组件
-      uview-plus
-      Sass
+      🎨 uview-plus
+      💅 Sass
     网络
-      uni.request
-      WebSocket
+      🌐 uni.request
+      ⚡ WebSocket
     能力
-      相机/相册
-      定位/地图
-      支付接口
-      文件上传
+      📸 相机/相册
+      📍 定位/地图
+      💰 支付接口
+      📂 文件上传
 ```
 
 ## 🚀 快速开始 (Quick Start)
