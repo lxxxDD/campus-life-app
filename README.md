@@ -110,22 +110,49 @@
 ## 🛠️ 技术架构 (Tech Stack)
 
 ```mermaid
-mindmap
-  root((📱 Campus App))
-    框架
-      🟢 uni-app
-      🟩 Vue 3
-    UI组件
-      🎨 uview-plus
-      💅 Sass
-    网络
-      🌐 uni.request
-      ⚡ WebSocket
-    能力
-      📸 相机/相册
-      📍 定位/地图
-      💰 支付接口
-      📂 文件上传
+graph TD
+    Root(("📱 Campus App"))
+    
+    Root --> Framework("💻 核心框架")
+    Framework --> UniApp("🟢 uni-app")
+    Framework --> Vue3("🟩 Vue 3")
+    
+    Root --> UI("🎨 UI组件")
+    UI --> Uview("🎭 uview-plus")
+    UI --> Sass("💅 Sass")
+    
+    Root --> Network("🌐 网络通信")
+    Network --> Request("📡 uni.request")
+    Network --> Socket("⚡ WebSocket")
+    
+    Root --> Native("🔌 原生能力")
+    Native --> Camera("📸 相机/相册")
+    Native --> Location("📍 定位/地图")
+    Native --> Pay("💰 支付接口")
+    Native --> Upload("📂 文件上传")
+
+    %% Neon Cyberpunk Palette
+    style Root fill:#000,stroke:#fff,stroke-width:4px,color:#fff
+    
+    style Framework fill:#000,stroke:#ff00ff,stroke-width:2px,color:#ff00ff
+    style UniApp fill:#000,stroke:#ff00ff,stroke-width:1px,color:#fff
+    style Vue3 fill:#000,stroke:#ff00ff,stroke-width:1px,color:#fff
+    
+    style UI fill:#000,stroke:#00ffff,stroke-width:2px,color:#00ffff
+    style Uview fill:#000,stroke:#00ffff,stroke-width:1px,color:#fff
+    style Sass fill:#000,stroke:#00ffff,stroke-width:1px,color:#fff
+    
+    style Network fill:#000,stroke:#ffff00,stroke-width:2px,color:#ffff00
+    style Request fill:#000,stroke:#ffff00,stroke-width:1px,color:#fff
+    style Socket fill:#000,stroke:#ffff00,stroke-width:1px,color:#fff
+    
+    style Native fill:#000,stroke:#00ff00,stroke-width:2px,color:#00ff00
+    style Camera fill:#000,stroke:#00ff00,stroke-width:1px,color:#fff
+    style Location fill:#000,stroke:#00ff00,stroke-width:1px,color:#fff
+    style Pay fill:#000,stroke:#00ff00,stroke-width:1px,color:#fff
+    style Upload fill:#000,stroke:#00ff00,stroke-width:1px,color:#fff
+    
+    linkStyle default stroke:#666,stroke-width:1px
 ```
 
 ## 🚀 快速开始 (Quick Start)
