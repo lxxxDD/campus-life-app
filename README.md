@@ -1,152 +1,141 @@
 <div align="center">
 
-# 📱 Campus Life App
+<!-- 访客统计 -->
+<img src="https://profile-counter.glitch.me/lxxxDD-campus-life-app/count.svg" alt="Visitors" />
 
-<img src="https://img.shields.io/badge/uni--app-Vue3-42b883?style=for-the-badge&logo=vue.js" />
-<img src="https://img.shields.io/badge/uview--plus-UI-ff6b6b?style=for-the-badge" />
-<img src="https://img.shields.io/badge/跨平台-iOS%20%7C%20Android%20%7C%20H5-blueviolet?style=for-the-badge" />
+<!-- 动态标题 -->
+<a href="https://github.com/lxxxDD/campus-life-app">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=40&duration=3000&pause=1000&color=42b883&center=true&vCenter=true&width=600&lines=Campus+Life+App;Cross-Platform+Mobile;Uni-app+x+Vue+3" alt="Typing SVG" />
+</a>
 
-**📲 你的校园生活，触手可及**
+<br>
 
-[🔗 后端服务](https://github.com/lxxxDD/campus-life-server) · [💻 管理后台](https://github.com/lxxxDD/campus-life-admin)
+<!-- 下载按钮 (模拟) -->
+<a href="#">
+  <img src="https://img.shields.io/badge/Download-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Download-iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Open-Web%20App-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+
+<br>
+<br>
+
+<!-- 核心徽章 -->
+<p>
+  <img src="https://img.shields.io/badge/uni--app-Vue3-42b883?style=for-the-badge&logo=vue.js" />
+  <img src="https://img.shields.io/badge/uview--plus-UI-ff6b6b?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Platform-iOS%20%7C%20Android%20%7C%20H5-blueviolet?style=for-the-badge" />
+</p>
+
+<h3 align="center">📲 你的校园生活，触手可及</h3>
+
+<p align="center">
+  <a href="#-应用截图">📱 应用截图</a> •
+  <a href="#-功能特性">✨ 功能特性</a> •
+  <a href="#-快速开始">🚀 快速开始</a> •
+  <a href="https://github.com/lxxxDD/campus-life-server">🔗 后端服务</a>
+</p>
 
 </div>
 
 ---
 
-## 🌟 应用预览
+## 📱 应用截图 (Screenshots)
 
-```
-╔══════════════════════════════════════╗
-║     🎓 校园生活 - 让生活更美好        ║
-╠══════════════════════════════════════╣
-║  ┌────────┐  ┌────────┐  ┌────────┐  ║
-║  │ 🛒二手 │  │ 🍜点餐 │  │ 🔧报修 │  ║
-║  │  市场  │  │  服务  │  │  服务  │  ║
-║  └────────┘  └────────┘  └────────┘  ║
-║  ┌────────┐  ┌────────┐  ┌────────┐  ║
-║  │ 📅活动 │  │ 📰新闻 │  │ 🤖AI   │  ║
-║  │  中心  │  │  资讯  │  │  助手  │  ║
-║  └────────┘  └────────┘  └────────┘  ║
-╚══════════════════════════════════════╝
-```
-
-## ✨ 功能特色
-
-<table>
-<tr>
-<td>
-
-### 🛒 二手市场
-- 📸 拍照发布闲置
-- 🔍 智能搜索商品
-- ❤️ 收藏感兴趣的
-- 💬 在线私聊卖家
-
-</td>
-<td>
-
-### 🍜 食堂点餐
-- 🏪 多食堂选择
-- 📋 丰富菜品展示
-- 🛍️ 购物车管理
-- 📍 订单实时追踪
-
-</td>
-</tr>
-<tr>
-<td>
-
-### 🔧 校园报修
-- 📝 一键提交报修
-- 📊 进度实时查看
-- ⭐ 服务评价反馈
-- 📜 历史记录查询
-
-</td>
-<td>
-
-### 🤖 AI助手
-- 💡 智能问答服务
-- 🗺️ 校园导航指引
-- 📚 学习资料推荐
-- 🎯 个性化建议
-
-</td>
-</tr>
-</table>
-
-## 🛠️ 技术栈
+> 🎨 **精美UI，极致体验**
 
 <div align="center">
-
-| 技术 | 说明 | 版本 |
-|:---:|:---|:---:|
-| <img src="https://skillicons.dev/icons?i=vue" width="20"/> | Vue 3 组合式API | 3.x |
-| 📦 | uni-app 跨平台框架 | 最新 |
-| 🎨 | uview-plus UI组件库 | 3.x |
-| 📡 | WebSocket 即时通讯 | - |
-
+  <table style="border: none;">
+    <tr>
+      <td align="center">
+        <img src="https://via.placeholder.com/200x400/42b883/ffffff?text=Home" alt="首页" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+        <br><b>🏠 首页大厅</b>
+      </td>
+      <td align="center">
+        <img src="https://via.placeholder.com/200x400/ff6b6b/ffffff?text=Market" alt="市场" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+        <br><b>🛒 二手市场</b>
+      </td>
+      <td align="center">
+        <img src="https://via.placeholder.com/200x400/409eff/ffffff?text=Service" alt="服务" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+        <br><b>🔧 校园服务</b>
+      </td>
+      <td align="center">
+        <img src="https://via.placeholder.com/200x400/909399/ffffff?text=Profile" alt="我的" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+        <br><b>👤 个人中心</b>
+      </td>
+    </tr>
+  </table>
 </div>
 
-## 🚀 快速开始
+## ✨ 功能特性 (Features)
+
+| 模块 | 核心功能 | 亮点 |
+| :--- | :--- | :--- |
+| **🛒 二手市场** | 发布、搜索、收藏、私聊 | 📸 **一键发布**，实时聊天 |
+| **🍜 食堂点餐** | 浏览、下单、支付、取餐 | 🥡 **无接触点餐**，智能推荐 |
+| **🔧 校园报修** | 报修、进度查询、评价 | 📍 **自动定位**，进度推送 |
+| **📅 校园活动** | 浏览、报名、签到 | 🎫 **二维码签到**，活动提醒 |
+| **🤖 AI助手** | 问答、导航、查询 | 🧠 **智能对话**，懂你所想 |
+
+## 🛠️ 技术架构 (Tech Stack)
+
+```mermaid
+mindmap
+  root((Campus App))
+    框架
+      uni-app
+      Vue 3
+    UI组件
+      uview-plus
+      Sass
+    网络
+      uni.request
+      WebSocket
+    能力
+      相机/相册
+      定位/地图
+      支付接口
+      文件上传
+```
+
+## 🚀 快速开始 (Quick Start)
+
+### 环境准备
+
+- **HBuilderX**: 3.8+ (推荐)
+- **Node.js**: 16+
+
+### 运行步骤
 
 ```bash
-# 📥 克隆项目
+# 1. 📥 克隆项目
 git clone https://github.com/lxxxDD/campus-life-app.git
 
-# 📂 进入目录
-cd campus-life-app
-
-# 📦 安装依赖
+# 2. 📦 安装依赖
 npm install
 
-# 🚀 启动开发服务
-npm run dev
+# 3. 🏃 运行项目
+# 方式一：命令行
+npm run dev:h5
+
+# 方式二：HBuilderX
+# 打开项目 -> 运行 -> 运行到浏览器/模拟器
 ```
 
-## 📁 目录结构
+## 🤝 贡献者 (Contributors)
 
-```
-📦 CampusLifeApp3.0
- ┣ 📂 api          # 🔌 接口封装
- ┣ 📂 components   # 🧩 公共组件
- ┣ 📂 pages        # 📄 页面文件
- ┃ ┣ 📂 market     # 🛒 二手市场
- ┃ ┣ 📂 canteen    # 🍜 食堂点餐
- ┃ ┣ 📂 repair     # 🔧 校园报修
- ┃ ┣ 📂 activity   # 📅 校园活动
- ┃ ┗ 📂 assistant  # 🤖 AI助手
- ┣ 📂 store        # 📊 状态管理
- ┣ 📂 static       # 🖼️ 静态资源
- ┗ 📂 utils        # 🛠️ 工具函数
-```
-
-## 📱 支持平台
-
-<div align="center">
-
-| <img src="https://img.icons8.com/color/48/android-os.png" width="24"/> Android | <img src="https://img.icons8.com/color/48/ios-logo.png" width="24"/> iOS | <img src="https://img.icons8.com/color/48/chrome.png" width="24"/> H5 | <img src="https://img.icons8.com/color/48/weixing.png" width="24"/> 微信小程序 |
-|:---:|:---:|:---:|:---:|
-| ✅ 支持 | ✅ 支持 | ✅ 支持 | ✅ 支持 |
-
-</div>
-
-## 🔗 相关项目
-
-<div align="center">
-
-[![Server](https://img.shields.io/badge/🖥️_后端服务-Spring_Boot-green?style=for-the-badge)](https://github.com/lxxxDD/campus-life-server)
-[![Admin](https://img.shields.io/badge/💻_管理后台-Vue_3-blue?style=for-the-badge)](https://github.com/lxxxDD/campus-life-admin)
-
-</div>
+<a href="https://github.com/lxxxDD/campus-life-app/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=lxxxDD/campus-life-app" />
+</a>
 
 ---
 
 <div align="center">
 
-**⭐ 觉得不错？给个Star吧！**
-
-Made with 💚 by [lxxxDD](https://github.com/lxxxDD)
+**Made with 💚 by [lxxxDD](https://github.com/lxxxDD)**
 
 </div>
